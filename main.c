@@ -16,7 +16,7 @@ void imprimirVetor(int *vetor, const char* descricao) {
     for (int i = 0; i < N; i++) {
         printf("%d ", *(vetor + i));
     }
-    printf("\n");
+    printf("\n");   
 }
 
 void copiarvetor(int *origem, int *destino) {
